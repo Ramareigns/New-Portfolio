@@ -12,8 +12,8 @@ const Contact = () => {
         <p className="font-bold p-4 text-purple-800 uppercase text-center">
           Get In Touch with Me
         </p>
-        <div className="grid lg:grid-cols-5 gap-8 ">
-          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-black rounded-xl p-4">
+        <div className="w-full  items-center justify-center flex">
+          <div className=" max-w-[600px] shadow-xl shadow-black rounded-xl sm:p-8 p-2">
             <div className="lg:p-4 h-full ">
               <div>
                 <img
@@ -31,24 +31,24 @@ const Contact = () => {
               </div>
               <div>
                 <p className="pt-8 uppercase font-bold">Connect with me!!</p>
-                <div className="flex items-center justify-between py-4">
+                <div className="flex items-center justify-center py-4">
                   <a href="https://www.linkedin.com/in/ramith-wijesinghe-842bab180/">
-                    <div className="rounded-full shadow-lg bg-purple-300  shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-white ease-in duration-300">
+                    <div className="rounded-full shadow-lg bg-purple-300 mx-3  shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-white ease-in duration-300">
                       <FaLinkedinIn />
                     </div>
                   </a>
                   <a href="https://github.com/Ramareigns">
-                    <div className="rounded-full shadow-lg bg-purple-300 shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-white ease-in duration-300">
+                    <div className="rounded-full shadow-lg bg-purple-300 mx-3 shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-white ease-in duration-300">
                       <FaGithub />
                     </div>
                   </a>
                   <a href="mailto:rwijesin@terpmail.umd.edu">
-                    <div className="rounded-full shadow-lg bg-purple-300 shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-white ease-in duration-300">
+                    <div className="rounded-full shadow-lg bg-purple-300 mx-3 shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-white ease-in duration-300">
                       <AiOutlineMail />
                     </div>
                   </a>
                   <a href="https://twitter.com/RamithWijesingh">
-                    <div className="rounded-full shadow-lg bg-purple-300 shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-white ease-in duration-300">
+                    <div className="rounded-full shadow-lg bg-purple-300 mx-3 shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-white ease-in duration-300">
                       <FaTwitter />
                     </div>
                   </a>
@@ -57,7 +57,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="col-span-3 w-full h-auto shadow-xl text-start  shadow-black rounded-xl lg:p-4">
+          {/* <div className="col-span-3 w-full h-auto shadow-xl text-start  shadow-black rounded-xl lg:p-4">
             <div className="p-4">
               <form>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
@@ -112,9 +112,9 @@ const Contact = () => {
                 </button>
               </form>
             </div>
-          </div>
+          </div> */}
         </div>
-        <div className="flex justify-center py-12">
+        <div className="flex justify-center pb-10 pt-20">
           <Link href="/">
             <div className="rounded-full shadow-lg bg-purple-300 shadow-black p-4 cursor-pointer hover:scale-110 hover:bg-white ease-in duration-300">
               <HiOutlineChevronDoubleUp className="" size={30} />

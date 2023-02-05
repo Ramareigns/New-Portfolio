@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 
 const ProjectItems = ({ title, backgroundImg, projectUrl }) => {
   return (
-    <div className="relative p-4 flex items-center justify-center h-auto w-full shadow-xl shadow-black rounded-xl group hover:bg-gradient-to-r from-purple-400 to-purple-800 ">
+    <div className="relative p-4 md:px-10 flex items-center justify-center h-auto w-full shadow-xl shadow-black rounded-xl group hover:bg-gradient-to-r from-purple-400 to-purple-800 ">
       <Image
         className="rounded-xl group-hover:opacity-10"
         src={backgroundImg}
