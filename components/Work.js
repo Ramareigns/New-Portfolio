@@ -9,7 +9,7 @@ const Work = () => {
           <p className="font-bold p-4 text-purple-800 uppercase">What I have Done</p>
         </div>
 
-        <div className="px-5 py-5 w-full h-full mx-auto p-2 flex justify-center items-center">
+        <div className="px-5 py-5 w-full h-full mx-auto p-2 flex flex-wrap md:flex-nowrap text-center md:text-left justify-center items-center">
           <div>
             <h2 className="py-4">
               IT Computer Operator Assistant & Web Developer at IBBR
@@ -25,7 +25,7 @@ const Work = () => {
             Tailwind CSS.
           </p>
         </div>
-        <div className="px-5 py-5 w-full h-full mx-auto p-2 flex justify-center items-center">
+        <div className="px-5 py-5 w-full h-full mx-auto p-2 flex flex-wrap md:flex-nowrap text-center md:text-left justify-center items-center">
           <div>
             <h2 className="py-4">University of Maryland - TerpEngage Intern</h2>
             <h3 className="text-purple-600">(January 2022 - Present)</h3>
@@ -37,7 +37,7 @@ const Work = () => {
             with large number of Student record data and managing IT tickets
           </p>
         </div>
-        <div className="px-5 py-5 w-full h-full mx-auto p-2 flex justify-center items-center">
+        <div className="px-5 py-5 w-full h-full mx-auto p-2 flex flex-wrap md:flex-nowrap text-center md:text-left justify-center items-center">
           <div>
             <h2 className="py-4">Bakery Clerk at Costco Wholesale (Wheaton)</h2>
             <h3 className="text-purple-600">(November 2019 - August 2022)</h3>
