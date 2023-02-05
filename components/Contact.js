@@ -32,12 +32,12 @@ const Contact = () => {
               <div>
                 <p className="pt-8 uppercase font-bold">Connect with me!!</p>
                 <div className="flex items-center justify-between py-4">
-                  <a href="https://www.linkedin.com/in/ramith-wijesinghe-842bab180/">
+                  <a href="https://www.linkedin.com/in/ramith-wijesinghe-842bab180/" target="_blank">
                     <div className="rounded-full shadow-lg bg-purple-300  shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-white ease-in duration-300">
                       <FaLinkedinIn />
                     </div>
                   </a>
-                  <a href="https://github.com/Ramareigns">
+                  <a href="https://github.com/Ramareigns" target="_blank">
                     <div className="rounded-full shadow-lg bg-purple-300 shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-white ease-in duration-300">
                       <FaGithub />
                     </div>
@@ -47,7 +47,7 @@ const Contact = () => {
                       <AiOutlineMail />
                     </div>
                   </a>
-                  <a href="https://twitter.com/RamithWijesingh">
+                  <a href="https://twitter.com/RamithWijesingh" target="_blank">
                     <div className="rounded-full shadow-lg bg-purple-300 shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-white ease-in duration-300">
                       <FaTwitter />
                     </div>

@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 const Main = () => {
   return (
-    <div id="Main" className="w-full h-screen text-center">
+    <div id="Main" className="w-full h-screen text-center ">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <h1 className="py-4">
@@ -23,22 +23,22 @@ const Main = () => {
             experience.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <a href="https://www.linkedin.com/in/ramith-wijesinghe-842bab180/">
+            <a href="https://www.linkedin.com/in/ramith-wijesinghe-842bab180/" target="_blank">
               <div className="rounded-full shadow-lg bg-purple-300  shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-white ease-in duration-300">
                 <FaLinkedinIn />
               </div>
             </a>
-            <a href="https://github.com/Ramareigns">
+            <a href="https://github.com/Ramareigns" target="_blank">
               <div className="rounded-full shadow-lg bg-purple-300 shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-white ease-in duration-300">
                 <FaGithub />
               </div>
             </a>
-            <a href="mailto:rwijesin@terpmail.umd.edu">
+            <a href="mailto:rwijesin@terpmail.umd.edu" target="_blank">
               <div className="rounded-full shadow-lg bg-purple-300 shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-white ease-in duration-300">
                 <AiOutlineMail />
               </div>
             </a>
-            <a href="https://twitter.com/RamithWijesingh">
+            <a href="https://twitter.com/RamithWijesingh" target="_blank">
               <div className="rounded-full shadow-lg bg-purple-300 shadow-black p-6 cursor-pointer hover:scale-110 hover:bg-white ease-in duration-300">
                 <FaTwitter />
               </div>
